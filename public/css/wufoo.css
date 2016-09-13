@@ -1,0 +1,62 @@
+.info h2 {
+  display: none;
+}
+
+.wufoo .info div {
+  font-size: 16px;
+  font-family: 'proxima-nova','Helvetica Neue',Helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 24px;
+  color: #5c5c5c;
+}
+
+#logo {
+  height: 0;
+}
+
+.wufoo input.text, .wufoo select.select {
+  font-size: 18px;
+  line-height: 24px;
+  border: 1px #CCC solid;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+  font-size: 20px;
+  font-family: Helvetica;
+  color: #5c5c5c;
+}
+
+form li div label, form li span label {
+  font-size: 100%;
+  line-height: 160%;
+  color: #fff;
+  padding-top: 0px;
+}
+
+form li {
+  margin: 5px 0px;
+}
+
+.form li.buttons {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+
+input.btTxt {
+  padding: 10px 16px;
+  width: auto;
+  overflow: visible;
+  text-transform: uppercase;
+  /* font-weight: 400; */
+  /* border-radius: 0; */
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  border: 1px solid #5c5c5c;
+  background-color: transparent;
+  color: #5c5c5c;
+}
+
+.safari input.btTxt {
+  font-size: 18px;
+}
