@@ -7,16 +7,6 @@ configure do
   set :server, :puma
   set :root, File.dirname(__FILE__)
 
-  Mail.defaults do
-      delivery_method       :smtp,
-      :address              => 'smtp.gmail.com',
-      :port                 => 587,
-      :authentication       => 'plain',
-      :user_name            => 'katiecase28@gmail.com',
-      :password             => 'G00d4me*',
-      :domain               => 'gmail.com',
-      :enable_starttls_auto => true
-  end
 end
 
 get '/' do
